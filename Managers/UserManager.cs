@@ -35,5 +35,15 @@ namespace TheSeer.Managers
         {
             throw new NotImplementedException();
         }
+
+        public static void GetAllUsers()
+        {
+            throw new NotImplementedException();
+        }
+
+        public static void GetUser(string username)
+        {
+
+        }
     }
 }
