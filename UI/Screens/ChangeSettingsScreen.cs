@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tarot.UI.UIModels
+namespace TheSeer.UI.Screens
 {
-    internal class LoginScreen
+    internal class ChangeSettingsScreen
     {
     }
 }

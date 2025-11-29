@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tarot.Models
+namespace TheSeer.Utilities.Helpers
 {
-    internal class Deck
+    internal class UIHelper
     {
     }
 }

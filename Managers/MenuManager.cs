@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TheSeer.Models
+namespace TheSeer.Managers
 {
-    internal class Seer
+    internal class MenuManager
     {
     }
 }

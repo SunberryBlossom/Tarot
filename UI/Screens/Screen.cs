@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tarot.Utility
+namespace TheSeer.UI.Screens
 {
-    internal class Enum
+    internal class Screen
     {
     }
 }

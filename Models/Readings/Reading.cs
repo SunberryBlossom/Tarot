@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tarot.Utility
+namespace TheSeer.Models.Readings
 {
-    internal class PasswordHashing
+    internal class Reading
     {
     }
 }

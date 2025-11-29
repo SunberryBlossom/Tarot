@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TheSeer.Models
+namespace TheSeer.Models.Spreads.AngelSpreads
 {
-    internal class Seer
+    internal class AngelSpread
     {
     }
 }

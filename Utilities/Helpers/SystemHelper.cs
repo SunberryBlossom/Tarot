@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TheSeer.Models
+namespace TheSeer.Utilities.Helpers
 {
-    internal class Seer
+    internal class SystemHelper
     {
     }
 }

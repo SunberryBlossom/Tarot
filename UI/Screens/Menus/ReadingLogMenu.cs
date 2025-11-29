@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TheSeer.Models
+namespace TheSeer.UI.Screens.Menus
 {
-    internal class Seer
+    internal class ReadingLogMenu
     {
     }
 }

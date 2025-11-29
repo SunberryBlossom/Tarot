@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tarot.Models
+namespace TheSeer.Models.Decks
 {
-    internal class Reading
+    internal class Deck
     {
     }
 }

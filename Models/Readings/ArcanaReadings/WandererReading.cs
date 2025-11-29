@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tarot.UI.UIModels
+namespace TheSeer.Models.Readings.ArcanaReadings
 {
-    internal class StartupScreen
+    internal class WandererReading
     {
     }
 }

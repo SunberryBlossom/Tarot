@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tarot.UI
+namespace TheSeer.Interfaces
 {
-    internal class UIHelper
+    internal interface IManager
     {
     }
 }

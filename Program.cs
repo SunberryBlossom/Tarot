@@ -1,4 +1,4 @@
-﻿namespace Tarot
+﻿namespace TheSeer
 {
     using System;
     using System.Linq;
