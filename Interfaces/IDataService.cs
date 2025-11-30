@@ -11,8 +11,9 @@ namespace TheSeer2.Interfaces
         User? GetUser(string username);
         void SaveUser(User user);
         List<User> GetAllUsers();
+
+        void SaveReading(Reading reading);
         List<Reading> GetUserReadings(Guid userId);
-        void SaveReading(ReadingType reading);
 
     }
 }
