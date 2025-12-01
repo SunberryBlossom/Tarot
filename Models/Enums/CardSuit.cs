@@ -11,7 +11,7 @@ namespace TheSeer2.Models.Enums
         Wands,
         Cups,
         Swords,
-        Pentacles,
+        Rings,
 
         None
     }

@@ -6,9 +6,10 @@ namespace TheSeer2.Models.Enums
 {
 	enum ReadingType
 	{
-		OneCard,
-		TwoCard,
-		ThreeCard,
-		FourCard,
+		DailyReading,
+		Wanderer,
+		Nuns,
+		Spies,
+		Knights
 	}
 }
