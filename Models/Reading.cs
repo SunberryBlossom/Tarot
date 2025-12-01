@@ -10,18 +10,18 @@ namespace TheSeer2.Models
         public Guid Id { get; init; }
         public Guid UserId { get; init; }
         public ReadingType Type { get; init; }
-        public CardSuit CardSuit { get; init; }
+        public DeckType Deck { get; init; }
         public List<Card> Cards { get; init; }
         public DateTime Timestamp { get; init; }
 
         // ---------------- CONSTRUCTORS -----------------------------//
         
-        public Reading(Guid userId, ReadingType type, CardSuit cardSuit, List<Card> cards)
+        public Reading(Guid userId, ReadingType type, DeckType deck, List<Card> cards)
         {
             Id = Guid.NewGuid();
             UserId = userId;
             Type = type;
-            CardSuit = cardSuit;
+            Deck = deck;
             
             if (cards == null || cards.Count == 0)
                 throw new ArgumentException("A reading must have at least one card", nameof(cards));
