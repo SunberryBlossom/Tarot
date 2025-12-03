@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Data\cards.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Data\cards.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Configuration\" />
+    <Folder Include="Constants\" />
+    <Folder Include="UI\Menus\" />
+    <Folder Include="UI\Prompts\" />
+    <Folder Include="UI\Views\" />
+  </ItemGroup>
+
+</Project>

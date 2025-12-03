@@ -1,0 +1,704 @@
+[
+  {
+    "Id": 0,
+    "Name": "The Fool",
+    "Deck": "Tarot",
+    "Suit": "MajorArcana",
+    "UprightMeaning": "The Fool is laughing at you. He symbolizes new beginnings, adventures, and opportunities. He brings pleasure, passion, thoughtlessness and rashness. Are you daydreaming much, my child? It is time to wake up and seize your opportunity, or fall, just like The Fool.",
+    "ReversedMeaning": "The Fool shies away from you, keeping all that is good with his coming away from you. You might have taken a bad decision, or you are indesicive, apathetic, hesistant and faulty. New beginnings might be around the corners... beginnings you might not love.",
+    "IsReversed": false
+  },
+  {
+    "Id": 1,
+    "Name": "The Magician",
+    "Deck": "Tarot",
+    "Suit": "MajorArcana",
+    "UprightMeaning": "The Magician stares you down, albeit with respect. His magic offers originality, creativity, skill, self-confidence and dexterity. Have you been having an idea lately, wondering if it is good or not? Maybe a solution to a problem, that could solve your career, love life or current endeavor? Trust that it is a GOOD idea, child.",
+    "ReversedMeaning": "The Magician scoffs at you. You are currently weak of will, and you reek of insecurity, delay and lack of imagination. Major opportunities might be on your horizon, do NOT let them pass you by. Watch out for snakes calling themselves your friends. Embrace opportunity, release your weakness.",
+    "IsReversed": false
+  },
+  {
+    "Id": 2,
+    "Name": "The High Priestess",
+    "Deck": "Tarot",
+    "Suit": "MajorArcana",
+    "UprightMeaning": "The High Priestess offers you a smile. She radiates with wisdom, knowledge, learning, intuition, purity, virtue, lack of patience and a will to teach you. You might have to give yourself time to learn something, so that you can make a wise decision. You should pay some time to truly listen to your dreams and their signs. They are worth your attention.",
+    "ReversedMeaning": "The High Priestess remains silent. Her action symbolizes ignorance, lack of understanding, selfishness, shallowness. Are you currently ignoring your intuition?",
+    "IsReversed": false
+  },
+  {
+    "Id": 3,
+    "Name": "The Empress",
+    "Deck": "Tarot",
+    "Suit": "MajorArcana",
+    "UprightMeaning": "The Empress bows her head towards you, showing grace. She offers action, development, accomplishment, sisterhood and evolution. Are you longing for something? Practice patience, and let your femininity blossom. A child might be coming your way. Be a good role model, the Empress asks of you.",
+    "ReversedMeaning": "The Empress looks down at you whilst she clicks her tongue. Her action symbolizes inaction, lack of concentration, indecision, anxiety and infidelity. You are not giving your feminine side enough attention. There will be consequences for this. Have you been neglecting your spiritual work? Are you lacking confidence? Try and straighten your back, my child.",
+    "IsReversed": false
+  },
+  {
+    "Id": 4,
+    "Name": "The Emperor",
+    "Deck": "Tarot",
+    "Suit": "MajorArcana",
+    "UprightMeaning": "The Emperor does not move a muscle, yet gives you a feeling of acceptance. He offers you power through agression, courage and boldness. Do you have a demanding person of authority close to you? Maybe this leader is not demanding, but charismatic. It is up to you to decide - use your power to act accordingly. Do NOT accept disrespect.",
+    "ReversedMeaning": "The Emperor flicks his hand, dismissing you from his court. He sees your immaturity, indecision and petty emotions. You lack strength and stability. The ground underneath you might be shaky currently. Is there an older male in your vicinity that is causing you distress? Is he making you feel powerless? You need to stand up to authorities around you, either loudly or quietly. Do not forget, YOU are the ruler of your fate.",
+    "IsReversed": false
+  },
+  {
+    "Id": 5,
+    "Name": "The Hierophant",
+    "Deck": "Tarot",
+    "Suit": "MajorArcana",
+    "UprightMeaning": "The Hierophant murmurs a blessing for you. He sees your need to conform (social approval), and simultaneously sheds light on your mercy, forgiveness, compassion and inspiration. You know how to solve your problems, dear. It might not be easy, but not all things great are so.",
+    "ReversedMeaning": "The Hierophant shouts in cursed tongues at you! You are unconventional and unorthodox, vulnerable and frail. You have a desire to mix things up. Freedom is waiting for you, but it will come with the cost of casting norms aside. The alternative path is open for you.",
+    "IsReversed": false
+  },
+  {
+    "Id": 6,
+    "Name": "The Lovers",
+    "Deck": "Tarot",
+    "Suit": "MajorArcana",
+    "UprightMeaning": "The lovers spots you, and opens their sheets with giggles and smirks to invite you in. They sense your power in love, harmony, trust and honor. You are passionate, and they sense that too. A divergence might come your way, do not dare to miss it, friend. No matter how difficult it might be, seek it! The easy road might not be righ for you. Take the leap of faith.",
+    "ReversedMeaning": "The lovers catches you peeping, and shouts for you to leave. You ooze of unreliability, separation and frustration in love. You are untrustworthy right now. If you've recently made a decision, it might be something you second-guess. It was YOUR decision. You have to reap what you sow.",
+    "IsReversed": false
+  },
+  {
+    "Id": 7,
+    "Name": "The Chariot",
+    "Deck": "Tarot",
+    "Suit": "MajorArcana",
+    "UprightMeaning": "The Chariot stands ready for you. They give off perserverance, a journey, rushed decision, adversity and vengeance. They are urging the uniting of opposites. This is your call to take action in a stagnant situation. Victory is coming, you are in control. Trust.",
+    "ReversedMeaning": "The Chariot tosses you off. Defeat is in the air, as is failure and the feeling of being vanquished. You are NOT in control right now. Reassess your wants and desires. Are your goals truly in line with your best interests? Time to reflect on this.",
+    "IsReversed": false
+  },
+  {
+    "Id": 8,
+    "Name": "Strength",
+    "Deck": "Tarot",
+    "Suit": "MajorArcana",
+    "UprightMeaning": "Strength enters you. With it, it brings courage, conviction, energy, determination and action. You are in control, of your situation and yourself. Are you riddled with any doubts, my child? Find your inner strength. With it, you can move mountains.",
+    "ReversedMeaning": "Strength leaves you, making you feel small and weak. You are petty, or sick, lacking faith and might be abusing powers. You are brave, but you do not use it. It is time to call Strength back. Drop your insecurities and let go of low self-esteem. It is time to fight.",
+    "IsReversed": false
+  },
+  {
+    "Id": 9,
+    "Name": "The Hermit",
+    "Deck": "Tarot",
+    "Suit": "MajorArcana",
+    "UprightMeaning": "The Hermit accepts you into his cave. There you will find counsel, inner strength, prudence, caution, vigilance, patience, and withdrawal. You might be wanting to be alone for now. Others might not see or understand what you do. give yourself space to self-reflect.",
+    "ReversedMeaning": "The Hermit throws rock at you from his hiding spot. He accuses you of imprudence, hastiness, rashness and being immature. Have you isolated yourself lately? Stop it if you care for yourself. Even if time has been spent alone, you have not spent it well. You are avoiding to deal with your real problems, both internally and externally.",
+    "IsReversed": false
+  },
+  {
+    "Id": 10,
+    "Name": "Wheel of Fortune",
+    "Deck": "Tarot",
+    "Suit": "MajorArcana",
+    "UprightMeaning": "The Wheel of Fortune spins in your favor! Luck is with you. The Universe is guiding you to fortunate experiences. Take advantage, go to where you mostly wish.",
+    "ReversedMeaning": "The Wheel of Fortune breaks down as you spin it. Failure is spun, so is bad luck and unexpected loss. This is your own fault, take responsibility. You took unnecessary risks. It is time to accept the inevitable with some dignity - bad luck will not stay with you for eternity.",
+    "IsReversed": false
+  },
+  {
+    "Id": 11,
+    "Name": "Justice",
+    "Deck": "Tarot",
+    "Suit": "MajorArcana",
+    "UprightMeaning": "Justice is with you. There is harmony, balance, equality, righteousness and honor in the air. You feel virtuous and accepting of advice. This is a time for adjustments. This is a time to bring back physical, emotional, social and spiritual things into balance. Stand tall and strong against anything - or anyone - that might throw you off balance!",
+    "ReversedMeaning": "The scales of Justice are not balances. You are being biased, might claim false accusations. Are you perhaps intolerant, unfair and abusive right now..? Maybe you are the victim of these feelings. Justice must be restored. Do what you can to restore it. Right the situation.",
+    "IsReversed": false
+  },
+  {
+    "Id": 12,
+    "Name": "The Hanged Man",
+    "Deck": "Tarot",
+    "Suit": "MajorArcana",
+    "UprightMeaning": "The face of the Hanged Man is peaceful. He gives you the feelings of suspension, change, reversal, sacrifice, readjustment, improvement, REBIRTH. Stop resisting, dearest. Reflect, move on. It is time to sail forward.",
+    "ReversedMeaning": "The Hanged man seems to be struggling. You sense unwillingness to make an effort. False prophecy is in the air, as is useless sacrifice. You are not as happy as you can be, and you are making bad desicions to not deal with it. Take a step back, breathe, give yourself some time to figure out the next step, and by the goddess, fix your attitude problem.",
+    "IsReversed": false
+  },
+  {
+    "Id": 13,
+    "Name": "Death",
+    "Deck": "Tarot",
+    "Suit": "MajorArcana",
+    "UprightMeaning": "Death is present, but you are not afraid. Transformation is here, and with it the New, loss, failure, illness or death and bad luck. Do not fret! All of this might be the end of a chapter, and the beginning of a new one. This is a time of transition. Embrace it, and the pain. You are ready.",
+    "ReversedMeaning": "Death approaches, and you fill up with dread. \"Thou have cheated me\". Change is approaching, and you are resisting it. This is bad. Let go and move forward. Take aim for a brighter future.",
+    "IsReversed": false
+  },
+  {
+    "Id": 14,
+    "Name": "Temperance",
+    "Deck": "Tarot",
+    "Suit": "MajorArcana",
+    "UprightMeaning": "The cups of Temperance are more than half full. They are filled with moderation, temperance, patience, harmony, fusion, good influence and confidence. As you drink, you sense a warning to temper your behavior. You are connected with what makes a good life. Your moral code remains strict, and you toil hard to reach your goals. This is good.",
+    "ReversedMeaning": "The cups of Temperance are leaking from their cracks. Conflict is seeping out, and with it, disunion, hostility, frustration and impatiance. You are being reckless. You are overindulging. You might be out of sync with the ones closest to you. Beware of this.",
+    "IsReversed": false
+  },
+  {
+    "Id": 15,
+    "Name": "The Devil",
+    "Deck": "Tarot",
+    "Suit": "MajorArcana",
+    "UprightMeaning": "The Devil appears, mockingly laughing. Downfall, failure, violence, disaster is here for you. He warns you to not restrain yourself. Be passionate, be ambitious. Find your inner devil. You are the one that put shackles unto yourself.",
+    "ReversedMeaning": "The Devil appears, yet you do not cower. He brings with him release, enlightenment, overcoming handicaps, divorce. It is time to let go, and move on. He reminds you of what has held you back in the past. Curse it, and move on!",
+    "IsReversed": false
+  },
+  {
+    "Id": 16,
+    "Name": "The Tower",
+    "Deck": "Tarot",
+    "Suit": "MajorArcana",
+    "UprightMeaning": "The Tower crumbles as you near it. Sudden, massive change is about to happen. Abandon the past, child, before it is too late. You might lose money, security or short term happiness... but in the catastrophe, you can build something much stronger than you ever had before.",
+    "ReversedMeaning": "The Tower stands firm. You might be trapped within it, in a bad situation. Shake things up - I know you have been procrastinating this. Question the traditions and habits you have been following blindly. What can you throw away in order to make room for something greater?",
+    "IsReversed": false
+  },
+  {
+    "Id": 17,
+    "Name": "The Star",
+    "Deck": "Tarot",
+    "Suit": "MajorArcana",
+    "UprightMeaning": "The stars shine brightly. Hope, faith, inspiration, optimism, insight, spiritual love, pleasure and balance radiates from it. You have worked through hardships, you are ready for whatever may come. Stay calm, stay positive. Unexpected help might wait for you, but it is in your hands to find your way. This is very good, indeed. Your possibilities are endless, and you are ready to grab it all. You have earned this.",
+    "ReversedMeaning": "The stars barely twinkle in a dark sky. Crushed dreams, unfulfilled hopes and back luck fills your lungs. Despite this, cling to hope, friend. Things CAN turn around. You can do this.",
+    "IsReversed": false
+  },
+  {
+    "Id": 18,
+    "Name": "The Moon",
+    "Deck": "Tarot",
+    "Suit": "MajorArcana",
+    "UprightMeaning": "The moon shines fully tonight. Deception, trickery, disillusionment, error, anxiety, danger and double-dealing hangs in the air. This might be a time of emotional or mental trials. Pay attention to your dreams, they are trying to tell you something.",
+    "ReversedMeaning": "A new moon rises. You are blessed to be able to discover deception before it falls upon you. You might also be able to take advantage of someone. You can release your negative energy and let go of your fears. You shall emerge with newfound confidence and clarity.",
+    "IsReversed": false
+  },
+  {
+    "Id": 19,
+    "Name": "The Sun",
+    "Deck": "Tarot",
+    "Suit": "MajorArcana",
+    "UprightMeaning": "The glorious Sun warms your skin. You can feel satisfied, accomplished, success and joy. Feel free to step out in the light. Things are going to work out just fine. People around you will benefit from your warmth, as will you.",
+    "ReversedMeaning": "The Sun is being covered by cloudy skies. She is unhappy with you. You feel that doubt is close to mind, an uncertain future with canceled plans. You might have been overstepping lately. You might feel lonely, that your friends are shutting you out. Put some more energy into it. Push through these clouds.",
+    "IsReversed": false
+  },
+  {
+    "Id": 20,
+    "Name": "Judgement",
+    "Deck": "Tarot",
+    "Suit": "MajorArcana",
+    "UprightMeaning": "Judgement is on your side. Awakening, renewal, a well-lived life wih better health and quickened mind is your sentence. Do not rest yet, however. You might have a challenge in need to face head on. You are ready to be judged, stop being held back and step into the future.",
+    "ReversedMeaning": "You are being judged. Fear of death is present, or failure, possible loss and ill health. You might be turning away from a challenge, and you will be punished for it. Your mind is filled with doubt. You do not believe you are capable.",
+    "IsReversed": false
+  },
+  {
+    "Id": 21,
+    "Name": "The World",
+    "Deck": "Tarot",
+    "Suit": "MajorArcana",
+    "UprightMeaning": "The World is revealed to your inner eye. It looks complete, perfect. She gives you recognition, addition to honors, the end result, success, fulfillment, triumph and eternal life. She offers you a happy end to a project, that will come with well-earned praise, celebration and success. Well done, sweet child.",
+    "ReversedMeaning": "The world is revealed as burning, failing. Imprefection, flawed vision and disappointment will follow. You might be wanting to take shortcuts, but that will only lead to more frustration, and the result will be... disappointing.",
+    "IsReversed": false
+  },
+  {
+    "Id": 22,
+    "Name": "Ace of Wands",
+    "Deck": "Tarot",
+    "Suit": "Wands",
+    "UprightMeaning": "A wand of fire appears before you. It brings creation, new beginnings, inspiration and raw energy. A new opportunity is coming, one that ignites your passion. Seize it with both hands!",
+    "ReversedMeaning": "The wand dims and smolders. Delays, false starts and misdirected energy plague you. Your creative spark is being suppressed. Reignite your passion.",
+    "IsReversed": false
+  },
+  {
+    "Id": 23,
+    "Name": "Two of Wands",
+    "Deck": "Tarot",
+    "Suit": "Wands",
+    "UprightMeaning": "Two wands stand before you. Planning, decisions and future possibilities await. You hold the world in your hands. What will you do with this power?",
+    "ReversedMeaning": "The wands cross, blocking your path. Fear of the unknown and poor planning hold you back. Make a decision and commit to it.",
+    "IsReversed": false
+  },
+  {
+    "Id": 24,
+    "Name": "Three of Wands",
+    "Deck": "Tarot",
+    "Suit": "Wands",
+    "UprightMeaning": "Three wands stand firm. Expansion, foresight and overseas opportunities present themselves. Your plans are coming to fruition. Look to the horizon.",
+    "ReversedMeaning": "The wands waver. Obstacles, delays and lack of foresight frustrate your progress. Reevaluate your plans.",
+    "IsReversed": false
+  },
+  {
+    "Id": 25,
+    "Name": "Four of Wands",
+    "Deck": "Tarot",
+    "Suit": "Wands",
+    "UprightMeaning": "Four wands form a canopy of celebration. Harmony, homecoming, community and joyful celebration await. This is a time of stability and happiness.",
+    "ReversedMeaning": "The canopy collapses. Lack of harmony, instability and canceled celebrations bring disappointment. Work to restore peace.",
+    "IsReversed": false
+  },
+  {
+    "Id": 26,
+    "Name": "Five of Wands",
+    "Deck": "Tarot",
+    "Suit": "Wands",
+    "UprightMeaning": "Five wands clash in conflict. Competition, tension and disagreement surround you. Channel this energy productively.",
+    "ReversedMeaning": "The wands lower. Avoiding conflict and inner turmoil dominate. Face your challenges head-on.",
+    "IsReversed": false
+  },
+  {
+    "Id": 27,
+    "Name": "Six of Wands",
+    "Deck": "Tarot",
+    "Suit": "Wands",
+    "UprightMeaning": "Six wands rise in victory. Success, recognition and public acclaim are yours. Enjoy this moment of triumph.",
+    "ReversedMeaning": "The wands fall. Defeat, lack of recognition and private shame follow. Learn from this setback.",
+    "IsReversed": false
+  },
+  {
+    "Id": 28,
+    "Name": "Seven of Wands",
+    "Deck": "Tarot",
+    "Suit": "Wands",
+    "UprightMeaning": "Seven wands defend against opposition. Courage, perseverance and standing your ground are required. Fight for what you believe in.",
+    "ReversedMeaning": "The wands break. Overwhelm, giving up and feeling defenseless consume you. Gather your strength.",
+    "IsReversed": false
+  },
+  {
+    "Id": 29,
+    "Name": "Eight of Wands",
+    "Deck": "Tarot",
+    "Suit": "Wands",
+    "UprightMeaning": "Eight wands fly swiftly. Speed, action and rapid movement propel you forward. Things are happening quickly now.",
+    "ReversedMeaning": "The wands slow and scatter. Delays, frustration and missed opportunities slow your progress. Be patient.",
+    "IsReversed": false
+  },
+  {
+    "Id": 30,
+    "Name": "Nine of Wands",
+    "Deck": "Tarot",
+    "Suit": "Wands",
+    "UprightMeaning": "Nine wands stand guard. Resilience, persistence and last-stand determination keep you going. You are almost there.",
+    "ReversedMeaning": "The wands crumble. Exhaustion, paranoia and giving up threaten to overwhelm you. Rest, then continue.",
+    "IsReversed": false
+  },
+  {
+    "Id": 31,
+    "Name": "Ten of Wands",
+    "Deck": "Tarot",
+    "Suit": "Wands",
+    "UprightMeaning": "Ten wands burden your shoulders. Responsibility, hard work and carrying a heavy load weigh on you. The end is near, persevere.",
+    "ReversedMeaning": "The wands are dropped. Overwhelm, delegation and releasing burdens bring relief. Let go of what does not serve you.",
+    "IsReversed": false
+  },
+  {
+    "Id": 32,
+    "Name": "Page of Wands",
+    "Deck": "Tarot",
+    "Suit": "Wands",
+    "UprightMeaning": "The Page of Wands brings news. Enthusiasm, exploration and new ideas excite you. Follow your curiosity.",
+    "ReversedMeaning": "The Page hesitates. Lack of direction, procrastination and bad news disappoint. Find your focus.",
+    "IsReversed": false
+  },
+  {
+    "Id": 33,
+    "Name": "Knight of Wands",
+    "Deck": "Tarot",
+    "Suit": "Wands",
+    "UprightMeaning": "The Knight of Wands charges forth. Energy, passion and adventure drive you. Take bold action.",
+    "ReversedMeaning": "The Knight stumbles. Recklessness, impatience and lack of direction cause problems. Slow down and think.",
+    "IsReversed": false
+  },
+  {
+    "Id": 34,
+    "Name": "Queen of Wands",
+    "Deck": "Tarot",
+    "Suit": "Wands",
+    "UprightMeaning": "The Queen of Wands rules confidently. Courage, determination and independence define you. Be bold and charismatic.",
+    "ReversedMeaning": "The Queen grows insecure. Selfishness, jealousy and insecurity cloud your judgment. Reclaim your confidence.",
+    "IsReversed": false
+  },
+  {
+    "Id": 35,
+    "Name": "King of Wands",
+    "Deck": "Tarot",
+    "Suit": "Wands",
+    "UprightMeaning": "The King of Wands commands respect. Leadership, vision and entrepreneurial spirit guide you. Take charge.",
+    "ReversedMeaning": "The King becomes tyrannical. Ruthlessness, controlling behavior and arrogance alienate others. Lead with compassion.",
+    "IsReversed": false
+  },
+  {
+    "Id": 36,
+    "Name": "Ace of Cups",
+    "Deck": "Tarot",
+    "Suit": "Cups",
+    "UprightMeaning": "A cup overflows with emotion. New love, compassion and emotional awakening fill your heart. Open yourself to feeling.",
+    "ReversedMeaning": "The cup spills its contents. Emotional loss, blocked feelings and emptiness sadden you. Allow yourself to feel.",
+    "IsReversed": false
+  },
+  {
+    "Id": 37,
+    "Name": "Two of Cups",
+    "Deck": "Tarot",
+    "Suit": "Cups",
+    "UprightMeaning": "Two cups unite. Partnership, connection and mutual attraction bind you. This is a sacred union.",
+    "ReversedMeaning": "The cups separate. Imbalance, broken communication and disharmony divide you. Seek to restore connection.",
+    "IsReversed": false
+  },
+  {
+    "Id": 38,
+    "Name": "Three of Cups",
+    "Deck": "Tarot",
+    "Suit": "Cups",
+    "UprightMeaning": "Three cups raise in celebration. Friendship, community and joyful gatherings await. Celebrate with those you love.",
+    "ReversedMeaning": "The cups are empty. Isolation, overindulgence and lack of community sadden you. Reach out to others.",
+    "IsReversed": false
+  },
+  {
+    "Id": 39,
+    "Name": "Four of Cups",
+    "Deck": "Tarot",
+    "Suit": "Cups",
+    "UprightMeaning": "Four cups sit untouched. Apathy, contemplation and reevaluation consume you. Look beyond what is offered.",
+    "ReversedMeaning": "The cups are noticed. New possibilities, awareness and readiness to act emerge. Seize the opportunity.",
+    "IsReversed": false
+  },
+  {
+    "Id": 40,
+    "Name": "Five of Cups",
+    "Deck": "Tarot",
+    "Suit": "Cups",
+    "UprightMeaning": "Five cups lie spilled. Loss, grief and disappointment overwhelm you. Remember what remains standing.",
+    "ReversedMeaning": "The cups are righted. Acceptance, moving on and finding peace bring healing. Look forward.",
+    "IsReversed": false
+  },
+  {
+    "Id": 41,
+    "Name": "Six of Cups",
+    "Deck": "Tarot",
+    "Suit": "Cups",
+    "UprightMeaning": "Six cups filled with nostalgia appear. Childhood memories, innocence and reunion warm your heart. Revisit the past.",
+    "ReversedMeaning": "The cups fade. Living in the past, naivety and unrealistic expectations hold you back. Move forward.",
+    "IsReversed": false
+  },
+  {
+    "Id": 42,
+    "Name": "Seven of Cups",
+    "Deck": "Tarot",
+    "Suit": "Cups",
+    "UprightMeaning": "Seven cups shimmer with illusions. Choices, fantasies and wishful thinking cloud your vision. Choose wisely.",
+    "ReversedMeaning": "The cups solidify. Clarity, determination and making decisions bring focus. Act on what is real.",
+    "IsReversed": false
+  },
+  {
+    "Id": 43,
+    "Name": "Eight of Cups",
+    "Deck": "Tarot",
+    "Suit": "Cups",
+    "UprightMeaning": "Eight cups are left behind. Abandonment, withdrawal and seeking deeper meaning call you. Walk away from what no longer serves.",
+    "ReversedMeaning": "The cups are returned to. Fear of change, stagnation and avoiding reality trap you. Continue your journey.",
+    "IsReversed": false
+  },
+  {
+    "Id": 44,
+    "Name": "Nine of Cups",
+    "Deck": "Tarot",
+    "Suit": "Cups",
+    "UprightMeaning": "Nine cups grant wishes. Satisfaction, emotional fulfillment and contentment are yours. Enjoy this abundance.",
+    "ReversedMeaning": "The cups bring dissatisfaction. Greed, unfulfilled desires and false success disappoint. Seek true happiness.",
+    "IsReversed": false
+  },
+  {
+    "Id": 45,
+    "Name": "Ten of Cups",
+    "Deck": "Tarot",
+    "Suit": "Cups",
+    "UprightMeaning": "Ten cups form a rainbow. Harmony, happiness and family bliss surround you. This is emotional fulfillment.",
+    "ReversedMeaning": "The rainbow fades. Broken family, disconnection and misaligned values cause pain. Heal your relationships.",
+    "IsReversed": false
+  },
+  {
+    "Id": 46,
+    "Name": "Page of Cups",
+    "Deck": "Tarot",
+    "Suit": "Cups",
+    "UprightMeaning": "The Page of Cups brings messages. Creative opportunities, intuitive insights and emotional curiosity arise. Trust your feelings.",
+    "ReversedMeaning": "The Page is confused. Emotional immaturity, blocked creativity and disappointing news arrive. Develop your sensitivity.",
+    "IsReversed": false
+  },
+  {
+    "Id": 47,
+    "Name": "Knight of Cups",
+    "Deck": "Tarot",
+    "Suit": "Cups",
+    "UprightMeaning": "The Knight of Cups approaches romantically. Romance, charm and following your heart guide you. Pursue your dreams.",
+    "ReversedMeaning": "The Knight is unreliable. Moodiness, jealousy and unrealistic expectations cause problems. Ground your emotions.",
+    "IsReversed": false
+  },
+  {
+    "Id": 48,
+    "Name": "Queen of Cups",
+    "Deck": "Tarot",
+    "Suit": "Cups",
+    "UprightMeaning": "The Queen of Cups offers compassion. Intuition, emotional security and nurturing love flow from you. Trust your inner voice.",
+    "ReversedMeaning": "The Queen becomes overwhelmed. Emotional insecurity, co-dependency and giving too much drain you. Set boundaries.",
+    "IsReversed": false
+  },
+  {
+    "Id": 49,
+    "Name": "King of Cups",
+    "Deck": "Tarot",
+    "Suit": "Cups",
+    "UprightMeaning": "The King of Cups rules with wisdom. Emotional balance, diplomacy and compassion guide your leadership. Be calm and kind.",
+    "ReversedMeaning": "The King loses control. Emotional manipulation, volatility and coldness harm others. Regain your balance.",
+    "IsReversed": false
+  },
+  {
+    "Id": 50,
+    "Name": "Ace of Swords",
+    "Deck": "Tarot",
+    "Suit": "Swords",
+    "UprightMeaning": "A sword cuts through confusion. Clarity, breakthrough and mental power emerge. Truth is revealed.",
+    "ReversedMeaning": "The sword is dulled. Confusion, chaos and clouded judgment obscure truth. Seek clarity.",
+    "IsReversed": false
+  },
+  {
+    "Id": 51,
+    "Name": "Two of Swords",
+    "Deck": "Tarot",
+    "Suit": "Swords",
+    "UprightMeaning": "Two swords cross in stalemate. Difficult choices, indecision and avoidance block progress. Make a choice.",
+    "ReversedMeaning": "The swords lower. Information revealed, confusion lifted and decisions made bring relief. Act now.",
+    "IsReversed": false
+  },
+  {
+    "Id": 52,
+    "Name": "Three of Swords",
+    "Deck": "Tarot",
+    "Suit": "Swords",
+    "UprightMeaning": "Three swords pierce the heart. Heartbreak, betrayal and painful truth wound deeply. Allow yourself to grieve.",
+    "ReversedMeaning": "The swords are removed. Healing, forgiveness and recovery begin. Release the pain.",
+    "IsReversed": false
+  },
+  {
+    "Id": 53,
+    "Name": "Four of Swords",
+    "Deck": "Tarot",
+    "Suit": "Swords",
+    "UprightMeaning": "Four swords rest peacefully. Rest, recovery and contemplation restore you. Take time to heal.",
+    "ReversedMeaning": "The swords stir restlessly. Restlessness, burnout and lack of rest exhaust you. You must rest.",
+    "IsReversed": false
+  },
+  {
+    "Id": 54,
+    "Name": "Five of Swords",
+    "Deck": "Tarot",
+    "Suit": "Swords",
+    "UprightMeaning": "Five swords are claimed in conflict. Defeat, loss and betrayal sting. Choose your battles wisely.",
+    "ReversedMeaning": "The swords are returned. Making amends, forgiveness and moving on bring peace. Let go of conflict.",
+    "IsReversed": false
+  },
+  {
+    "Id": 55,
+    "Name": "Six of Swords",
+    "Deck": "Tarot",
+    "Suit": "Swords",
+    "UprightMeaning": "Six swords guide a journey. Transition, moving on and leaving behind the past bring hope. Sail toward calmer waters.",
+    "ReversedMeaning": "The swords prevent departure. Resistance to change, unfinished business and emotional baggage hold you back. Release and move forward.",
+    "IsReversed": false
+  },
+  {
+    "Id": 56,
+    "Name": "Seven of Swords",
+    "Deck": "Tarot",
+    "Suit": "Swords",
+    "UprightMeaning": "Seven swords are taken secretly. Deception, strategy and getting away with something tempt you. Be cautious.",
+    "ReversedMeaning": "The swords are revealed. Being caught, coming clean and facing consequences await. Truth will out.",
+    "IsReversed": false
+  },
+  {
+    "Id": 57,
+    "Name": "Eight of Swords",
+    "Deck": "Tarot",
+    "Suit": "Swords",
+    "UprightMeaning": "Eight swords trap you. Feeling trapped, victimized and powerless restricts you. The bindings are self-imposed.",
+    "ReversedMeaning": "The swords fall away. Freedom, new perspectives and release from restriction emerge. Break free.",
+    "IsReversed": false
+  },
+  {
+    "Id": 58,
+    "Name": "Nine of Swords",
+    "Deck": "Tarot",
+    "Suit": "Swords",
+    "UprightMeaning": "Nine swords haunt your sleep. Anxiety, nightmares and mental anguish torment you. Face your fears.",
+    "ReversedMeaning": "The swords lose their power. Recovery, reaching out and overcoming fear bring relief. Seek help.",
+    "IsReversed": false
+  },
+  {
+    "Id": 59,
+    "Name": "Ten of Swords",
+    "Deck": "Tarot",
+    "Suit": "Swords",
+    "UprightMeaning": "Ten swords strike the final blow. Painful endings, rock bottom and betrayal devastate you. This is the darkest hour before dawn.",
+    "ReversedMeaning": "The swords are removed. Recovery, regeneration and new beginnings emerge. Rise from the ashes.",
+    "IsReversed": false
+  },
+  {
+    "Id": 60,
+    "Name": "Page of Swords",
+    "Deck": "Tarot",
+    "Suit": "Swords",
+    "UprightMeaning": "The Page of Swords brings news. Curiosity, mental energy and new ideas excite you. Stay alert.",
+    "ReversedMeaning": "The Page spreads gossip. Deceit, trickery and hurtful words cause damage. Guard your tongue.",
+    "IsReversed": false
+  },
+  {
+    "Id": 61,
+    "Name": "Knight of Swords",
+    "Deck": "Tarot",
+    "Suit": "Swords",
+    "UprightMeaning": "The Knight of Swords charges ahead. Action, ambition and driven focus propel you forward. Strike while the iron is hot.",
+    "ReversedMeaning": "The Knight is reckless. Impulsiveness, lack of direction and aggression cause problems. Think before you act.",
+    "IsReversed": false
+  },
+  {
+    "Id": 62,
+    "Name": "Queen of Swords",
+    "Deck": "Tarot",
+    "Suit": "Swords",
+    "UprightMeaning": "The Queen of Swords speaks truth. Independence, clear thinking and direct communication guide you. Speak your mind.",
+    "ReversedMeaning": "The Queen becomes cold. Bitterness, cruelty and emotional detachment harm others. Soften your heart.",
+    "IsReversed": false
+  },
+  {
+    "Id": 63,
+    "Name": "King of Swords",
+    "Deck": "Tarot",
+    "Suit": "Swords",
+    "UprightMeaning": "The King of Swords judges fairly. Intellectual power, truth and authority guide your decisions. Use logic and reason.",
+    "ReversedMeaning": "The King is tyrannical. Manipulation, cruelty and abuse of power corrupt you. Use your power wisely.",
+    "IsReversed": false
+  },
+  {
+    "Id": 64,
+    "Name": "Ace of Rings",
+    "Deck": "Tarot",
+    "Suit": "Rings",
+    "UprightMeaning": "A golden ring appears. New financial opportunity, manifestation and prosperity await. Plant the seeds of success.",
+    "ReversedMeaning": "The ring is lost. Missed opportunities, lack of planning and financial setbacks occur. Be more practical.",
+    "IsReversed": false
+  },
+  {
+    "Id": 65,
+    "Name": "Two of Rings",
+    "Deck": "Tarot",
+    "Suit": "Rings",
+    "UprightMeaning": "Two rings balance perfectly. Juggling resources, adaptability and finding balance challenge you. Stay flexible.",
+    "ReversedMeaning": "The rings fall. Overwhelm, disorganization and poor financial management cause stress. Simplify your life.",
+    "IsReversed": false
+  },
+  {
+    "Id": 66,
+    "Name": "Three of Rings",
+    "Deck": "Tarot",
+    "Suit": "Rings",
+    "UprightMeaning": "Three rings craft excellence. Teamwork, collaboration and skilled work bring success. Your efforts are recognized.",
+    "ReversedMeaning": "The rings are flawed. Lack of teamwork, poor quality and disharmony frustrate progress. Improve your work.",
+    "IsReversed": false
+  },
+  {
+    "Id": 67,
+    "Name": "Four of Rings",
+    "Deck": "Tarot",
+    "Suit": "Rings",
+    "UprightMeaning": "Four rings are hoarded tightly. Security, control and conservation dominate. Loosen your grip.",
+    "ReversedMeaning": "The rings are released. Generosity, letting go and sharing bring freedom. Open your hands.",
+    "IsReversed": false
+  },
+  {
+    "Id": 68,
+    "Name": "Five of Rings",
+    "Deck": "Tarot",
+    "Suit": "Rings",
+    "UprightMeaning": "Five rings lie in poverty. Financial loss, hardship and feeling left out cause suffering. Help is available.",
+    "ReversedMeaning": "The rings are recovered. Recovery, charity received and renewed hope emerge. Accept assistance.",
+    "IsReversed": false
+  },
+  {
+    "Id": 69,
+    "Name": "Six of Rings",
+    "Deck": "Tarot",
+    "Suit": "Rings",
+    "UprightMeaning": "Six rings are shared generously. Giving, receiving and charity balance. Share your abundance.",
+    "ReversedMeaning": "The rings are withheld. Debts unpaid, selfishness and one-sided charity create imbalance. Give or receive fairly.",
+    "IsReversed": false
+  },
+  {
+    "Id": 70,
+    "Name": "Seven of Rings",
+    "Deck": "Tarot",
+    "Suit": "Rings",
+    "UprightMeaning": "Seven rings grow slowly. Long-term view, perseverance and patience in investment pay off. Keep working.",
+    "ReversedMeaning": "The rings fail to grow. Impatience, lack of results and poor investment disappoint. Reevaluate your approach.",
+    "IsReversed": false
+  },
+  {
+    "Id": 71,
+    "Name": "Eight of Rings",
+    "Deck": "Tarot",
+    "Suit": "Rings",
+    "UprightMeaning": "Eight rings are crafted skillfully. Apprenticeship, skill development and dedication to craft bring mastery. Keep learning.",
+    "ReversedMeaning": "The rings are poorly made. Lack of focus, mediocrity and wasted effort frustrate you. Improve your skills.",
+    "IsReversed": false
+  },
+  {
+    "Id": 72,
+    "Name": "Nine of Rings",
+    "Deck": "Tarot",
+    "Suit": "Rings",
+    "UprightMeaning": "Nine rings surround you in luxury. Abundance, self-sufficiency and material success are yours. Enjoy your achievements.",
+    "ReversedMeaning": "The rings bring isolation. Overwork, loneliness despite wealth and unfulfilled success sadden you. Reconnect with what matters.",
+    "IsReversed": false
+  },
+  {
+    "Id": 73,
+    "Name": "Ten of Rings",
+    "Deck": "Tarot",
+    "Suit": "Rings",
+    "UprightMeaning": "Ten rings complete the cycle. Wealth, family legacy and lasting security are achieved. This is true prosperity.",
+    "ReversedMeaning": "The rings are lost. Financial failure, family disputes and loss of stability threaten you. Protect your legacy.",
+    "IsReversed": false
+  },
+  {
+    "Id": 74,
+    "Name": "Page of Rings",
+    "Deck": "Tarot",
+    "Suit": "Rings",
+    "UprightMeaning": "The Page of Rings brings opportunity. New financial prospects, manifestation and studiousness arise. Start building.",
+    "ReversedMeaning": "The Page procrastinates. Lack of progress, poor planning and missed opportunities waste potential. Take action.",
+    "IsReversed": false
+  },
+  {
+    "Id": 75,
+    "Name": "Knight of Rings",
+    "Deck": "Tarot",
+    "Suit": "Rings",
+    "UprightMeaning": "The Knight of Rings works methodically. Hard work, responsibility and routine bring steady progress. Stay the course.",
+    "ReversedMeaning": "The Knight is stuck. Boredom, stagnation and lack of progress frustrate you. Try a new approach.",
+    "IsReversed": false
+  },
+  {
+    "Id": 76,
+    "Name": "Queen of Rings",
+    "Deck": "Tarot",
+    "Suit": "Rings",
+    "UprightMeaning": "The Queen of Rings nurtures abundance. Practicality, comfort and financial security guide you. Create a beautiful life.",
+    "ReversedMeaning": "The Queen is materialistic. Self-centeredness, jealousy and work-life imbalance harm you. Reorder your priorities.",
+    "IsReversed": false
+  },
+  {
+    "Id": 77,
+    "Name": "King of Rings",
+    "Deck": "Tarot",
+    "Suit": "Rings",
+    "UprightMeaning": "The King of Rings rules prosperity. Wealth, business success and security are yours. Lead with abundance.",
+    "ReversedMeaning": "The King is corrupt. Greed, materialism and poor financial management corrupt you. Remember what truly matters.",
+    "IsReversed": false
+  }
+]
