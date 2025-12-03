@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TheSeer2.Services
+namespace TheSeer.Services
 {
     internal class Narrator
     {

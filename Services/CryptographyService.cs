@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Security.Cryptography;
-using TheSeer2.Interfaces;
+using TheSeer.Interfaces;
 
-namespace TheSeer2.Services
+namespace TheSeer.Services
 {
     internal class CryptographyService : ICryptographyService
     {

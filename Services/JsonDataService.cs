@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text.Json;
-using TheSeer2.Interfaces;
-using TheSeer2.Models;
+using TheSeer.Interfaces;
+using TheSeer.Models;
 
-namespace TheSeer2.Services
+namespace TheSeer.Services
 {
     internal class JsonDataService : IDataService
     {

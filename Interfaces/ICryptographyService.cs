@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TheSeer2.Interfaces
+namespace TheSeer.Interfaces
 {
     internal interface ICryptographyService
     {

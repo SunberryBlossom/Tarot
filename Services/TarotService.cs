@@ -4,10 +4,10 @@ using System.IO;
 using System.Linq;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using TheSeer2.Models;
-using TheSeer2.Models.Enums;
+using TheSeer.Models;
+using TheSeer.Models.Enums;
 
-namespace TheSeer2.Services
+namespace TheSeer.Services
 {
     internal class TarotService
     {

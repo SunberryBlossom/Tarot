@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using TheSeer2.Models;
-using TheSeer2.Models.Enums;
+using TheSeer.Models;
+using TheSeer.Models.Enums;
 
-namespace TheSeer2.Interfaces
+namespace TheSeer.Interfaces
 {
     internal interface IDataService
     {

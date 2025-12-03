@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using TheSeer2.Interfaces;
-using TheSeer2.Models;
+using TheSeer.Interfaces;
+using TheSeer.Models;
 
 
-namespace TheSeer2.Managers
+namespace TheSeer.Managers
 {
     internal class UserManager
     {

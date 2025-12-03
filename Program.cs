@@ -1,7 +1,7 @@
-﻿using TheSeer2.Models.Enums;
-using TheSeer2.Services;
+﻿using TheSeer.Models.Enums;
+using TheSeer.Services;
 
-namespace TheSeer2
+namespace TheSeer
 {
     internal class Program
     {

@@ -1,7 +1,7 @@
 ﻿using System;
-using TheSeer2.Models.Enums;
+using TheSeer.Models.Enums;
 
-namespace TheSeer2.Models
+namespace TheSeer.Models
 {
     internal class Card
     {

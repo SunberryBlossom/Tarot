@@ -1,7 +1,7 @@
 ﻿using System;
-using TheSeer2.Utilities.Helpers;
+using TheSeer.Utilities.Helpers;
 
-namespace TheSeer2.Models
+namespace TheSeer.Models
 {
     internal class User
     {

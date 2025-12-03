@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using TheSeer2.Models.Enums;
+using TheSeer.Models.Enums;
 
-namespace TheSeer2.Models
+namespace TheSeer.Models
 {
     internal class Reading
     {

@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using TheSeer2.Managers;
-using TheSeer2.Models;
-using TheSeer2.Models.Enums;
+using TheSeer.Managers;
+using TheSeer.Models;
+using TheSeer.Models.Enums;
 
-namespace TheSeer2.Services;
+namespace TheSeer.Services;
 
 internal class SpreadService
 {
