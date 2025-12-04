@@ -20,7 +20,6 @@
   <ItemGroup>
     <Folder Include="Configuration\" />
     <Folder Include="Constants\" />
-    <Folder Include="UI\Menus\" />
     <Folder Include="UI\Prompts\" />
     <Folder Include="UI\Views\" />
   </ItemGroup>
