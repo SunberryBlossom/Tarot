@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Linq;
+
 using TheSeer.Managers;
 using TheSeer.Models.Enums;
 using TheSeer.Services;
