@@ -4,7 +4,7 @@ using System.Linq;
 using TheSeer.Services;
 using TheSeer.Utilities.Helpers;
 
-namespace TheSeer.UI.Menu
+namespace TheSeer.UI.Menus
 {
     /// <summary>
     /// Base class for all menu implementations providing common functionality
@@ -62,18 +62,30 @@ namespace TheSeer.UI.Menu
             while (true)
             {
                 int previousOption = hoveredOption;
-                
-                hoveredOption = Console.ReadKey(true).Key switch
-                {
-                    ConsoleKey.DownArrow => (hoveredOption + 1) % options.Count,
-                    ConsoleKey.UpArrow => (hoveredOption - 1 + options.Count) % options.Count,
-                    ConsoleKey.Enter => hoveredOption + 101, // Special marker for return
-                    ConsoleKey.Escape => 100, // Special marker for escape
-                    _ => hoveredOption // No change
-                };
+                var key = Console.ReadKey(true).Key;
 
-                // Handle returns
-                if (hoveredOption > 100) return hoveredOption - 100;
+                switch (key)
+                {
+                    case ConsoleKey.DownArrow:
+                        hoveredOption = (hoveredOption + 1) % options.Count;
+                        break;
+
+                    case ConsoleKey.UpArrow:
+                        hoveredOption = (hoveredOption - 1 + options.Count) % options.Count;
+                        break;
+
+                    case ConsoleKey.Enter:
+                        // Return 1-based selection index
+                        return hoveredOption + 1;
+
+                    case ConsoleKey.Escape:
+                        // Escape/back should return 0 to indicate "back"
+                        return 0;
+
+                    default:
+                        // no change
+                        break;
+                }
 
                 if (previousOption != hoveredOption)
                 {

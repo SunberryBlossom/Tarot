@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using TheSeer.Controllers;
+using TheSeer.Models.Enums;
+using TheSeer.Utilities.Helpers;
 
 namespace TheSeer.UI.Menus
 {
@@ -82,12 +84,51 @@ namespace TheSeer.UI.Menus
         private void HandleNewReading()
         {
             _narrator.TransitionToReading();
-            // TODO: Create and call ReadingSelectionMenu
-            // var readingMenu = new ReadingSelectionMenu(_app);
-            // readingMenu.Show();
-            
-            _narrator.SpeakWisdom("The reading chamber is not yet ready... Soon, traveler.");
-            PressAnyKey();
+
+            // Prompt for deck first
+            var deckValues = Enum.GetValues(typeof(DeckType)).Cast<DeckType>().ToList();
+
+            while (true)
+            {
+                ShowHeader("Choose Deck");
+                ConsoleHelper.TypeWriteLine("Select the deck to use for this reading:", ConsoleHelper.Colors.Mystical, 1);
+                ConsoleHelper.WriteBlankLine();
+
+                for (int i = 0; i < deckValues.Count; i++)
+                {
+                    ConsoleHelper.TypeWriteLine($"  {i + 1}. {deckValues[i]}", ConsoleHelper.Colors.Info, 1);
+                }
+
+                ConsoleHelper.TypeWriteLine($"  {deckValues.Count + 1}. Back", ConsoleHelper.Colors.Info, 1);
+                ConsoleHelper.WriteBlankLine();
+
+                string input = ConsoleHelper.ReadLine("Choose deck number: ", ConsoleHelper.Colors.Info);
+
+                if (!int.TryParse(input, out int deckChoice))
+                {
+                    ShowError("Invalid input. Enter the number of the deck.");
+                    continue;
+                }
+
+                if (deckChoice == deckValues.Count + 1 || deckChoice == 0)
+                {
+                    // Back to main menu
+                    return;
+                }
+
+                if (deckChoice < 1 || deckChoice > deckValues.Count)
+                {
+                    ShowError("Choice out of range. Try again.");
+                    continue;
+                }
+
+                var chosenDeck = deckValues[deckChoice - 1];
+
+                // Launch spread selection scoped to chosen deck
+                var spreadMenu = new SpreadSelectionMenu(_app, chosenDeck);
+                spreadMenu.Show();
+                return;
+            }
         }
 
         private void HandleReadingHistory()
