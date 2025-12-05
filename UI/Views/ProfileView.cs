@@ -6,5 +6,6 @@ namespace TheSeer.UI.Views
 {
     internal class ProfileView
     {
+
     }
 }
