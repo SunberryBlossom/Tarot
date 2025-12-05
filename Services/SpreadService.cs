@@ -25,6 +25,7 @@ internal class SpreadService
                 new Spread
                 (
                     ReadingType.DailyReading,
+                    DeckType.Tarot, // <- deck specified
                     "Daily Reading",
                     "This, my friend, is a chance to glimpse your day ahead of it happening. One card, for one day. What say you, Traveler?",
                     new List<SpreadPosition>
@@ -38,6 +39,7 @@ internal class SpreadService
                 new Spread
                 (
                     ReadingType.Wanderer,
+                    DeckType.Tarot,
                     "The Wanderer",
                     "The Wanderer is a lonely spread. A single card, to answer a single, yet perhaps not simple question. She may help you with a conundrum; a specific, yet not closed question... Would you like to walk with the Wanderer, Traveler?",
                     new List<SpreadPosition>
@@ -51,6 +53,7 @@ internal class SpreadService
                 new Spread
                 (
                     ReadingType.Nuns,
+                    DeckType.Tarot,
                     "The Two Nuns",
                     "The sisterly nuns may show you duality. A chance to differ what one ought to do, and what one ought to avoid. Their holy guidance will stop you from devilish actions, whilst leading you to more pious lands. Do you desire holy guidance from the two nuns, Traveler?",
                     new List<SpreadPosition>
@@ -65,6 +68,7 @@ internal class SpreadService
                 new Spread
                 (
                     ReadingType.Spies,
+                    DeckType.Tarot,
                     "The Three Spies",
                     "Three shadowy spies I have at my disposal. These men do not spy in courts, but in fate, and destiny. One gathers intel from your past, the other of your present, the third of your future. These three spies are for hire. What do you say, Traveler?",
                     new List<SpreadPosition>
@@ -80,6 +84,7 @@ internal class SpreadService
                 new Spread
                 (
                     ReadingType.Lords,
+                    DeckType.Tarot,
                     "The Four Lords",
                     "The four lords rule over fiefs, but not fiefs of land... they oversee the four corners of our being: mind, body, spirit and subconsciousness. If you desire, the lords might come to sit with us, to tell you what is going on in these four areas of yourself. Will you meet with the four noble lords of your life, Traveler?",
                     new List<SpreadPosition>
