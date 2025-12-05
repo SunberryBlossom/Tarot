@@ -5,6 +5,7 @@ using TheSeer.Managers;
 using TheSeer.Models;
 using TheSeer.Models.Enums;
 using TheSeer.Services;
+using TheSeer.UI.Menus;
 
 namespace TheSeer.Controllers
 {
@@ -93,11 +94,8 @@ namespace TheSeer.Controllers
 
             while (!userWantsToLogout && _isRunning)
             {
-                // TODO: Create and call MainMenu
-                // var mainMenu = new MainMenu(this);
-                // userWantsToLogout = mainMenu.Show(); // Returns true if user chooses logout
-                
-                userWantsToLogout = true; // Temporary - remove when MainMenu is implemented
+                var mainMenu = new MainMenu(this);
+                userWantsToLogout = mainMenu.Show();
             }
         }
 
