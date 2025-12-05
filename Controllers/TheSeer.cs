@@ -78,11 +78,8 @@ namespace TheSeer.Controllers
         /// </summary>
         private bool AuthenticateUser()
         {
-            // TODO: Create and call AuthenticationMenu
-            // var authMenu = new AuthenticationMenu(_userManager, _narrator);
-            // return authMenu.Show(); // Returns true if logged in, false if user wants to exit
-            
-            return true; // Temporary - remove when AuthenticationMenu is implemented
+            var authMenu = new AuthenticationMenu(_userManager, _narrator);
+            return authMenu.Show(); // Returns true if logged in, false if user wants to exit
         }
 
         /// <summary>
