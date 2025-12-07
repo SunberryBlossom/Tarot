@@ -7,19 +7,14 @@ namespace TheSeer.Models
 {
     internal class Reading
     {
-        // ----------------------- PROPERTIES --------------------------//
         public Guid Id { get; init; }
         public Guid UserId { get; init; }
         public ReadingType Type { get; init; }
         public DeckType Deck { get; init; }
         public List<Card> Cards { get; init; }
         public DateTime Timestamp { get; init; }
-
-        // Optional question the user asked when requesting the reading
         public string? Question { get; init; }
 
-        // ---------------- CONSTRUCTORS -----------------------------//
-        
         public Reading(Guid userId, ReadingType type, DeckType deck, List<Card> cards, string? question = null)
         {
             Id = Guid.NewGuid();
