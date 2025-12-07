@@ -6,7 +6,6 @@ namespace TheSeer.Models
 {
     internal class User
     {
-        // ----------------------- PROPERTIES --------------------------//
         [JsonInclude]
         public Guid Id { get; init; }
         
@@ -31,7 +30,6 @@ namespace TheSeer.Models
         [JsonInclude]
         public bool TwoAuthOpt { get; private set; }
 
-        // ---------------- CONSTRUCTORS -----------------------------//
         public User(string username, string passwordHash, string email)
         {
             SetUsername(username);
@@ -44,8 +42,6 @@ namespace TheSeer.Models
         }
 
         public User() { }
-
-        // --------------- METHODS -----------------------//
 
         public void SetPassword(string hashedPassword)
         {
