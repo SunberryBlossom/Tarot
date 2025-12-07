@@ -9,13 +9,13 @@ namespace TheSeer.Models
     {
         public Guid Id { get; init; }
         public Guid UserId { get; init; }
-        public ReadingType Type { get; init; }
+        public SpreadType Type { get; init; }
         public DeckType Deck { get; init; }
         public List<Card> Cards { get; init; }
         public DateTime Timestamp { get; init; }
         public string? Question { get; init; }
 
-        public Reading(Guid userId, ReadingType type, DeckType deck, List<Card> cards, string? question = null)
+        public Reading(Guid userId, SpreadType type, DeckType deck, List<Card> cards, string? question = null)
         {
             Id = Guid.NewGuid();
             UserId = userId;

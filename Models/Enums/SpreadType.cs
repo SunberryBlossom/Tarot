@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TheSeer.Models.Enums
 {
-	enum ReadingType
+	enum SpreadType
 	{
 		DailyReading,
 		Wanderer,
