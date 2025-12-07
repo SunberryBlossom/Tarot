@@ -7,14 +7,14 @@ namespace TheSeer.Models;
 
 internal class Spread
 {
-    public ReadingType Type { get; init; }
-    public DeckType Deck { get; init; }           // new: which deck this spread applies to
+    public SpreadType Type { get; init; }
+    public DeckType Deck { get; init; }
     public int CardCount { get; init; }
     public string Name { get; init; }
     public string Description { get; init; }
     public ReadOnlyCollection<SpreadPosition> Positions { get; init; }
 
-    public Spread(ReadingType type, DeckType deck, string name, string description, List<SpreadPosition> positions)
+    public Spread(SpreadType type, DeckType deck, string name, string description, List<SpreadPosition> positions)
     {
         if (string.IsNullOrWhiteSpace(name))
             throw new ArgumentException("Spread name cannot be empty", nameof(name));
