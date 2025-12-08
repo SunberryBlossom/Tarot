@@ -20,24 +20,14 @@ namespace TheSeer
 
             // Initialize managers
             var userManager = new UserManager(dataService, cryptoService, validationService);
-            var readingManager = new ReadingManager(tarotService, spreadService, dataService );
+            var readingManager = new ReadingManager(tarotService, spreadService, dataService);
 
             // Create and run the application controller
             var app = new Controllers.TheSeer(userManager, readingManager, narrator);
-            
-            try
-            {
-                app.Run();
-            }
-            catch (Exception ex)
-            {
-                Console.Clear();
-                ConsoleHelper.WriteError("An unexpected error occurred:");
-                Console.WriteLine(ex.Message);
-                Console.WriteLine();
-                Console.WriteLine("Press any key to exit...");
-                Console.ReadKey();
-            }
+
+
+            app.Run();
+
         }
     }
 }
