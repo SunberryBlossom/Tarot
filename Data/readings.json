@@ -54,5 +54,43 @@
     ],
     "Timestamp": "2025-12-05T14:34:10.1995732+01:00",
     "Question": "how should I think about today"
+  },
+  {
+    "Id": "308cf031-e033-4385-85d4-f6657dd42cac",
+    "UserId": "e288a661-06e3-4fb8-aac3-ce7f73f91beb",
+    "Type": 0,
+    "Deck": 0,
+    "Cards": [
+      {
+        "Id": 42,
+        "Name": "Seven of Cups",
+        "Deck": 0,
+        "Suit": 2,
+        "UprightMeaning": "Seven cups shimmer with illusions. Choices, fantasies and wishful thinking cloud your vision. Choose wisely.",
+        "ReversedMeaning": "The cups solidify. Clarity, determination and making decisions bring focus. Act on what is real.",
+        "IsReversed": true
+      }
+    ],
+    "Timestamp": "2025-12-05T16:03:29.1250117+01:00",
+    "Question": null
+  },
+  {
+    "Id": "ee124c87-2388-49b7-abe1-9fd97f66bb2f",
+    "UserId": "e288a661-06e3-4fb8-aac3-ce7f73f91beb",
+    "Type": 1,
+    "Deck": 0,
+    "Cards": [
+      {
+        "Id": 62,
+        "Name": "Queen of Swords",
+        "Deck": 0,
+        "Suit": 3,
+        "UprightMeaning": "The Queen of Swords speaks truth. Independence, clear thinking and direct communication guide you. Speak your mind.",
+        "ReversedMeaning": "The Queen becomes cold. Bitterness, cruelty and emotional detachment harm others. Soften your heart.",
+        "IsReversed": false
+      }
+    ],
+    "Timestamp": "2025-12-05T16:05:12.0768184+01:00",
+    "Question": null
   }
 ]
